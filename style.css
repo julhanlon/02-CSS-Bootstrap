@@ -9,6 +9,7 @@
   color: #00887a;
   display: flex;
   justify-content: left !important;
+  font-weight: bold;
 }
 
 #card {
@@ -30,4 +31,15 @@ body {
 .nav-link {
   display: flex;
   justify-content: end;
+}
+
+.Port-card {
+  background-color: #ffffff;
+  width: 500px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.Port-card img {
+  height: 450px;
 }
