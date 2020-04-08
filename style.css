@@ -1,19 +1,33 @@
 #navbar {
   background-color: #77a6f7 !important;
+  align-items: center;
 }
 
-#navbar-brand {
+#name {
   background-color: #ffffff;
-  padding: 10px;
-  margin: 0px;
-  border: 0px;
+  font-size: 1.5rem;
+  color: #00887a;
+  display: flex;
+  justify-content: left !important;
 }
+
 #card {
   display: flex;
   justify-content: center;
-  padding-left: 50px;
+  align-items: center;
+  border-radius: 100%;
+  height: 500px;
+}
+
+#card li {
+  padding-top: 20px;
 }
 
 body {
   background-color: #d3e3fc;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: end;
 }
