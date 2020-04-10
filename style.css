@@ -7,8 +7,6 @@
   background-color: #ffffff;
   font-size: 1.5rem;
   color: #00887a;
-  display: flex;
-  justify-content: left !important;
   font-weight: bold;
 }
 
@@ -42,4 +40,15 @@ body {
 
 .Port-card img {
   height: 450px;
+}
+
+#about-card {
+  margin-left: 450px;
+  margin-top: 200px;
+  background-color: #ffffff;
+}
+
+#about-card img {
+  height: 360px;
+  width: 300px;
 }
