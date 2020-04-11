@@ -1,13 +1,17 @@
 #navbar {
   background-color: #77a6f7 !important;
   align-items: center;
+  color: #ffffff;
 }
 
-#name {
-  background-color: #ffffff;
-  font-size: 1.5rem;
-  color: #00887a;
+.navbar-brand {
+  color: #ffffff !important;
   font-weight: bold;
+}
+
+.nav-item a {
+  color: #ffffff !important;
+  background-color: #77a6f7;
 }
 
 #card {
@@ -26,15 +30,10 @@ body {
   background-color: #d3e3fc;
 }
 
-.nav-link {
-  display: flex;
-  justify-content: end;
-}
-
 .Port-card {
   background-color: #ffffff;
   width: 500px;
-  margin-left: 80px;
+  margin: 0px auto;
   margin-top: 20px;
 }
 
@@ -43,12 +42,27 @@ body {
 }
 
 #about-card {
-  margin-left: 450px;
+  margin-left: 250px;
   margin-top: 200px;
+  margin-right: 250px;
   background-color: #ffffff;
+  height: 360px;
+  max-width: 960px;
+  display: flex;
 }
 
 #about-card img {
   height: 360px;
   width: 300px;
+}
+
+.card-bodyabout {
+  width: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
